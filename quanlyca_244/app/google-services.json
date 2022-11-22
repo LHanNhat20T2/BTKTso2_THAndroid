@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "824347277398",
+    "firebase_url": "https://qlyca-1d95a-default-rtdb.firebaseio.com",
+    "project_id": "qlyca-1d95a",
+    "storage_bucket": "qlyca-1d95a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:824347277398:android:53e5b426a657959dd063f7",
+        "android_client_info": {
+          "package_name": "com.example.btth2_thandroid"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "824347277398-m51c0897s8ub7pm1a4rhop7cf1qh4uqh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD7IOkuT2fBbTdkFQeCIwPNPSTOGyxpbzE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "824347277398-m51c0897s8ub7pm1a4rhop7cf1qh4uqh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

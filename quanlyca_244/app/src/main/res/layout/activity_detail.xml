@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:cardCornerRadius="6dp"
+    android:elevation="6dp"
+    app:cardUseCompatPadding="true"
+    android:backgroundTint="#000"
+    tools:context=".Detail">
+
+    <LinearLayout
+        android:background="#A5BFD8"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="15dp">
+        <ImageButton
+            android:id="@+id/btnback"
+            android:layout_width="60dp"
+            android:layout_height="50dp"
+            android:src="@drawable/previous"
+            android:background="@null"
+            />
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_gravity="center"
+            android:layout_marginRight="10dp"
+            android:layout_width="180dp"
+            android:layout_height="140dp"
+            android:src="@mipmap/ic_launcher"
+            android:id="@+id/anhmota"
+            app:civ_border_width="2dp"
+            app:civ_border_color="#FF000000">
+        </de.hdodenhof.circleimageview.CircleImageView>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            android:weightSum="2"
+            >
+            <TextView
+                android:id="@+id/tenkhoahoc"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Tên khoa học:"
+                android:textColor="#000"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/tvtenkhoahoc"
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Tên khoa học"
+                android:textColor="#000"
+                android:textSize="30sp" />
+        </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:weightSum="2"
+        >
+        <TextView
+            android:letterSpacing="0.01"
+            android:id="@+id/tenthuonggoi"
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Tên thường gọi:"
+            android:textColor="#000"
+            android:textSize="28sp"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/tvtenthuongoi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Tên thường gọi"
+            android:textColor="#000"
+            android:textSize="24sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:weightSum="2"
+        >
+        <TextView
+            android:letterSpacing="0.01"
+            android:id="@+id/mausac"
+            android:layout_width="138dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Màu sắc:"
+            android:textColor="#000"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/tvmausac"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvtenthuongoi"
+            android:layout_marginTop="10dp"
+            android:text="Màu sắc"
+            android:textColor="#000"
+            android:textSize="28sp" />
+    </LinearLayout>
+        <TextView
+            android:id="@+id/mota2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvmausac"
+            android:layout_marginTop="10dp"
+            android:text="Đặc tính:"
+            android:textColor="#000"
+            android:textSize="30sp"
+            android:textStyle="bold"/>
+        <TextView
+            android:id="@+id/tvdactinh"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvmausac"
+            android:layout_marginTop="10dp"
+            android:text="Đặc tính"
+            android:textColor="#000"
+            android:textSize="25sp" />
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
